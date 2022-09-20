@@ -1,0 +1,75 @@
+.card {
+  background-color: white;
+  color: white;
+  padding: 1rem;
+  /* box-shadow: 8px 7px lightgray; */
+ 
+}
+
+
+.cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+
+@media (min-width: 300px) {
+  .cards {
+      grid-template-columns: repeat(2, 1fr);
+    
+  }
+}
+
+
+@media (min-width: 900px) {
+  .cards {
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+.font{
+  
+  display: flex;
+}
+input,
+.btn {
+width: 100%;
+padding: 12px;
+border: none;
+border-bottom: 2px solid black;
+border-radius: 4px;
+font-size: 17px;
+line-height: 20px;
+text-decoration: none; 
+outline: none;
+}
+#example1 {
+  box-sizing: content-box;  
+  width: 95%;
+  padding: 12px;
+  border: none;
+  border-bottom: 2px solid black;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; 
+}
+#hometown:hover{
+  background-color: #3575f2;
+}
+/* New css */
+.grid-container{
+  display: grid ;
+  grid-template-columns: 50% 50%;
+  padding: 20px;
+}
+.tact{
+  text-align: center;
+}
+.font{
+  text-align: center;
+}
+.body{
+  font-size: 22;
+}
+  
